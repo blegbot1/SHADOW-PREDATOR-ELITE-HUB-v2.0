@@ -1,6 +1,6 @@
 --[[
 	COMPKILLER + ELITE HUB MERGED - ПОЛНАЯ ВЕРСИЯ
-	Author: 4lpaca + gerkylesichakes + Hasker
+	Author:  gerkylesichakes
 ]]
 
 local Compkiller = loadstring(game:HttpGet("https://raw.githubusercontent.com/4lpaca-pin/CompKiller/refs/heads/main/src/source.luau"))();
@@ -19,7 +19,7 @@ Compkiller:Loader("rbxassetid://120245531583106" , 2.5).yield();
 
 -- Creating Window --
 local Window = Compkiller.new({
-	Name = "🌟 ELITE HUB 12.6 HASKER 🌟",
+	Name = "🌟 SHADOW PREDATOR ELITE HUB v2.0 🌟",
 	Keybind = "LeftAlt",
 	Logo = "rbxassetid://120245531583106",
 	Scale = Compkiller.Scale.Window,
@@ -135,8 +135,8 @@ local GameHubTab = Window:DrawTab({
 
 -- FE скрипты вкладка
 local FEScriptsTab = Window:DrawTab({
-	Name = "🎭 FE Скрипты",
-	Icon = "sparkles",
+	Name = "💛 FE Скрипты",
+	Icon = "heart",
 	EnableScrolling = true
 });
 
@@ -2542,7 +2542,7 @@ end)
 
 -- Финальное уведомление
 Notifier.new({
-	Title = "💜🎉 ELITE HUB 12.6 HASKER ЗАГРУЖЕН! 🎉💜",
+	Title = "💜🎉 SHADOW PREDATOR ELITE HUB v2.0 ЗАГРУЖЕН! 🎉💜",
 	Content = "🔥 Hasker Edition | Все функции включены 🔥\n⚔️💥 Улучшенный гибкий аимбот!\n🎯 9 типов приоритета целей!\n🤖 Гуманизатор и Anti-Aim!\n🔫 Компенсация отдачи и автокликер!\n\n🎭✨ FE скрипты: 40+\n🚀🌟 Универсальные хабы: 25+\n🎯🎮 Игровые скрипты: 25+\n👁️🎯 ESP с 3D Box включен!",
 	Duration = 8,
     Icon = "rbxassetid://120245531583106"
